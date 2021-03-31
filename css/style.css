@@ -1,0 +1,44 @@
+:root{
+    --black-color: #222222;
+}
+
+body{
+    font-family: Lato;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: var(--black-color);
+}
+
+.header__navigation{
+    display: none;
+}
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    min-height: 75px;
+}
+
+.header__logo{
+    margin: 0 41px 0 0;
+}
+
+.header__button{
+    background: transparent;
+    border: none;
+    margin: 0 33px 0 0;
+}
+
+.header__link{
+    margin: 0 33px 0 0;
+}
