@@ -96,6 +96,7 @@ body {
     display: flex;
     justify-content: space-between;
     min-height: 75px;
+    align-items: center;
 }
 
 .header__logo {
