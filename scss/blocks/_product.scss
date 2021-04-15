@@ -1,0 +1,29 @@
+.product{
+    
+    &__title {
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+    &__text {
+    color: $dark-gray-color;
+}
+
+    &__price {
+    color: $dark-pink-color;
+    margin-top: 18px;
+}
+
+    &__button {
+    display: none;
+}
+
+    &__img{
+    display: block;
+}
+
+    &__description {
+    background: $gray-color;
+    padding: 25px 29px 20px 17px;
+}
+}
