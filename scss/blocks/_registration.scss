@@ -1,0 +1,70 @@
+.registration {
+    max-width: 1600px;
+    margin: 0 auto;
+    background: #FFFFFF;
+    min-height: 675px;
+
+    &__title-text {
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 29px;
+        color: #F16D7F;
+    }
+    
+    &__title {
+        height: 148px;
+        background: #F8F3F4;
+        display: flex;
+        align-items: center;
+    }
+    
+    &__form {
+        margin-top: 64px;
+        height: 675px;
+    }
+    
+    &__form-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+        &__legend {
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 19px;
+    }
+    
+        &__form fieldset {
+        display: flex;
+        flex-direction: column;
+    }
+    
+        &__text {
+        width: 360px;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: 16px;
+        color: #B1B1B1;
+    }
+    
+    &__form input {
+        width: 359px ;
+        height: 44px;
+        margin-top: 21px;
+        margin-bottom: 21px;
+    }
+    
+    .input#male.radio-input {
+        height: 17px;
+        width: 17px;
+    }
+    
+    &__button {
+        width: 167px;
+        height: 50px ;
+        background: #F16D7F;
+    }
+
+}
+
+

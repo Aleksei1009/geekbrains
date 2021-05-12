@@ -1,0 +1,36 @@
+.loyalty {
+        margin-top: 64px;
+        margin-left: 128px;
+
+        &__title {
+        margin-bottom: 22px;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 29px;
+        color: $black-color;
+    }
+    
+        &__text {
+        margin-bottom: 21px;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 29px;
+    }
+    
+        &__item {
+        margin-left: 44px;
+        position: relative;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 29px;
+        margin-bottom: 16px;
+    }
+    
+        &__item:before {
+        position: absolute;
+        content:url(../img/checkmark.svg);
+        left: -40px;   
+    }
+}
+
+
